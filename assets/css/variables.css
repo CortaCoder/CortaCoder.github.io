@@ -33,15 +33,15 @@
   --color-default-rgb: 26, 31, 36;
 
   /* Defult links color */
-  --color-links: #0ea2bd;
-  --color-links-hover: #1ec3e0;
+  --color-links: #0189a1;
+  --color-links-hover: #65126f;
 
   /* Primay colors */
-  --color-primary: #0ea2bd;
-  --color-primary-light: #1ec3e0;
-  --color-primary-dark: #0189a1;
+  --color-primary: #98002e;
+  --color-primary-light: #c08cb2;
+  --color-primary-dark: #65126f;
 
-  --color-primary-rgb: 14, 162, 189;
+  --color-primary-rgb: 101, 18, 111;
   --color-primary-light-rgb: 30, 195, 224;
   --color-primary-dark-rgb: 1, 137, 161;
 
@@ -55,7 +55,7 @@
   --color-secondary-dark-rgb: 58, 71, 83;
 
   /* General colors */
-  --color-blue: #0d6efd;
+  --color-blue: #7c0f46;
   --color-blue-rgb: 13, 110, 253;
 
   --color-indigo: #6610f2;

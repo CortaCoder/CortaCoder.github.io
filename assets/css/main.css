@@ -1137,6 +1137,7 @@ section {
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services .service-item {
+  border-radius: 20px;
   padding: 30px;
   transition: all ease-in-out 0.4s;
   background: var(--color-white);
@@ -1171,8 +1172,8 @@ section {
 }
 
 .featured-services .service-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 0 60px 0 rgba(var(--color-secondary-rgb), 0.1);
+  transform: translateY(-8px);
+  box-shadow: 0px 0 60px 0 rgba(101, 18, 111, 0.3);
 }
 
 .featured-services .service-item:hover h4 a {
@@ -1384,7 +1385,7 @@ section {
 
 .onfocus .video-play {
   min-height: 400px;
-  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("../img/onfocus-video-bg.jpg") center center;
+  background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url("https://www.identifiedtech.com/wp-content/uploads/2016/04/blog_drone-vs-uav2.jpg") center center;
   background-size: cover;
 }
 
@@ -2321,8 +2322,9 @@ section {
 }
 
 .contact .info {
+  border-radius: 20px;
   padding: 40px;
-  box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
+  box-shadow: 0px 2px 15px rgba(101, 18, 111, 0.3);
   overflow: hidden;
 }
 
