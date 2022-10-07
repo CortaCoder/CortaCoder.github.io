@@ -60,7 +60,7 @@
 }
 
 .section-team .single-person:hover {
-	background: linear-gradient(to right, #016cec, #00b5f7);
+	background: linear-gradient(to right, #730f47, #7a4182);
 }
 
 .section-team .single-person .person-image {
@@ -91,16 +91,22 @@
     height: 60px;
     line-height: 60px;
     text-align: center;
-    background: linear-gradient(to right, #016cec, #00b5f7);
+    background: linear-gradient(to right, #730f47, #7a4182);
     color: #fff;
     border-radius: 50%;
     font-size: 24px;
+}
+.section-team .single-person .person-image .icon a{
+    color: #fff;
 }
 
 .section-team .single-person:hover .person-image .icon {
 	background: none;
 	background-color: #fff;
-	color: #016cec;
+}
+
+.section-team .single-person:hover .person-image .icon a{
+	color: #97012d;
 }
 
 .section-team .single-person .person-info .full-name {
@@ -153,28 +159,12 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="#" class="active">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#cta">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Happenings</a></li>
+          <!--<li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>-->
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li> 
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+          <!--<li><a href="blog.html">Blog</a></li> --->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -183,13 +173,8 @@
 
   <section id="hero-animated" class="hero-animated d-flex align-items-center">
     <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
-      <h2>Welcome to <span>IEEE RAS CBIT</span></h2>
-      <p></p>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-      </div>
+      <img src="assets/img/her-carousel.png" class="img-fluid animated">
+      <h2>Welcome to <span><strong>IEEE RAS <span style="color:#65126f ;">CBIT</span></strong></span></h2>
     </div>
   </section>
 
@@ -227,16 +212,13 @@
         <div class="row g-5">
 
           <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>About IEEE <em>RAS</em> CBIT</h3>
-            <p style="content:justify;">IEEE Robotics and Automation Society (RAS) Student Chapter of Chaitanya Bharathi Institute of Technology (CBIT), initiated by the Departments of Electrical and Electronics Engineering, Electronics and Communications Engineering, Information Technology and Mechanical Engineering of CBIT, works to contribute towards the evolution and exchange of scientific knowledge on robotics and automation with applied and theoretical and practical knowledge.<br>
-              The field of robotics plays a major role in space exploration, human services, manufacturing, and many more fields such as intelligent machines and systems along with machine learning and artificial intelligence which has drastically caused a huge development recently in science and technology. The automation methods take place in various areas such as, different applications in industry, transportation, workplaces, and houses, ensuring better performance with increased efficiency and productivity.
-              Robotics focuses on systems incorporating sensors and actuators that operate autonomously or semi-autonomously in cooperation with humans.</p>
-            <a class="cta-btn align-self-start" href="#">Call To Action</a>
+            <h3>About IEEE <em>RAS</em> CBIT</h3><br>
+            <p style="justify-content:start;">IEEE Robotics and Automation Society (RAS) Student Chapter of Chaitanya Bharathi Institute of Technology (CBIT), initiated by the Departments of Electrical and Electronics Engineering, Electronics and Communications Engineering, Information Technology and Mechanical Engineering, works to contribute towards evolution and exchange of scientific knowledge on robotics and automation with applied theoretical, practical knowledge. The Society has immensely contributed in boosting the student members towards robotics and automation, being a great source of professional, scientific, and technical information. We look forward to boosting the local soft and hard skills through organizing events and competitions</p>
           </div>
 
           <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
             <div class="img">
-              <img src="assets/img/cta.jpg" alt="" class="img-fluid">
+              <img src="assets/img/IEEE_LOG.jpeg" alt="" class="img-fluid">
             </div>
           </div>
 
@@ -250,14 +232,14 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><a href="https://www.ieee-ras.org"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.ieee.org"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://linktr.ee/ieee_cbit"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://instagram.com/ieee_ras.cbit?igshid=MDE2OWE1N2Q="><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.linkedin.com/in/ieee-ras-student-branch-chapter-cbit-064b45252/"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></a></div>
+            <!--<div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>-->
           </div>
         </div>
 
@@ -271,20 +253,21 @@
 
         <div class="row g-0">
           <div class="col-lg-6 video-play position-relative">
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn">{{ videoLInk }}</a>
+            
           </div>
           <div class="col-lg-6">
             <div class="content d-flex flex-column justify-content-center h-100">
-              <h3>Upcoming<br><span>{{ Event Name }}</span></h3>
+              <h3><em style="color: grey;">Upcoming</em><hr><span>Build your own Unmanned Aerial Vehicle</span></h3><br>
               <p class="fst-italic">
-                { Brief Description }
-              </p>
+                An interactive workshop on DRONES, guided by an experienced trainer that will provide you insight on theoretical and practical aspects regarding the construction of the same.
+              </p><br>
+              Outcomes
+              <br><br>
               <ul>
-                <li><i class="bi bi-check-circle"></i> { Outcome 1 }</li>
-                <li><i class="bi bi-check-circle"></i> { Outcome 2 }</li>
-                <li><i class="bi bi-check-circle"></i> { Outcome 3 }</li>
+                <li><i class="bi bi-check-circle"></i> Fundamental Principles of Unmanned Aerial Vehicles</li>
+                <li><i class="bi bi-check-circle"></i> Detail insight into practical use of UAV in real world</li>
+                <li><i class="bi bi-check-circle"></i> Gain information about advantages & disadvantages of UAV</li>
               </ul>
-              <a href="#" class="read-more align-self-start"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -413,7 +396,7 @@
       </div>
     </section><!-- End Services Section -->
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio" data-aos="fade-up">
+    <!--<section id="portfolio" class="portfolio" data-aos="fade-up">
 
       <div class="container">
 
@@ -434,7 +417,7 @@
             <li data-filter=".filter-product">Seminars</li>
             <li data-filter=".filter-branding">Masterclasses</li>
             <li data-filter=".filter-books">Others</li>
-          </ul><!-- End Portfolio Filters -->
+          </ul><!-- End Portfolio Filters 
 
           <div class="row g-0 portfolio-container">
 
@@ -445,7 +428,7 @@
                 <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item 
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
               <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
@@ -454,7 +437,7 @@
                 <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
               <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
@@ -463,8 +446,7 @@
                 <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
-
+            </div><-- End Portfolio Item --
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
               <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -472,7 +454,7 @@
                 <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
               <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
@@ -481,7 +463,7 @@
                 <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
               <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
@@ -490,7 +472,7 @@
                 <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item -
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
               <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
@@ -499,7 +481,7 @@
                 <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
               <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
@@ -508,7 +490,7 @@
                 <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-app">
               <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
@@ -517,7 +499,7 @@
                 <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-product">
               <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
@@ -526,7 +508,7 @@
                 <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-branding">
               <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
@@ -535,7 +517,7 @@
                 <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item filter-books">
               <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
@@ -544,9 +526,9 @@
                 <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Portfolio Item --
 
-          </div><!-- End Portfolio Container -->
+          </div><!-- End Portfolio Container --
 
         </div>
 
@@ -554,7 +536,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Team Section ======= -->
-    <section class="section-team">
+    <section id="team" class="section-team">
 		<div class="container">
 			<!-- Start Header Section -->
 			<div class="section-header">
@@ -567,13 +549,13 @@
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">
 						<div class="person-image">
-							<img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt="">
+							<img src="assets/img/profile/VV.jpeg" alt="">
 							<span class="icon">
-								<i class="fab fa-html5"></i>
+								<a href="https://www.linkedin.com/in/vaeshnavi-vella-b2b3771bb"><i class="fab fa-linkedin-in"></i></a>
 							</span>
 						</div>
 						<div class="person-info">
-							<h3 class="full-name">Vaeshnavi V</h3>
+							<h3 class="full-name">Vaeshnavi Vella</h3>
 							<span class="speciality">Chairperson</span>
 						</div>
 					</div>
@@ -583,13 +565,13 @@
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">
 						<div class="person-image">
-							<img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt="">
+							<img src="assets/img/profile/SR.jpg" alt="">
 							<span class="icon">
-								<i class="fab fa-wordpress-simple"></i>
+								<a href="https://www.linkedin.com/in/srinivas-reddy-pamulapati-79377519b"><i class="fab fa-linkedin-in"></i></a>
 							</span>
 						</div>
 						<div class="person-info">
-							<h3 class="full-name">Srinivas Reddy</h3>
+							<h3 class="full-name">Srinivas Reddy P</h3>
 							<span class="speciality">Vice Chairperson</span>
 						</div>
 					</div>
@@ -599,13 +581,13 @@
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">
 						<div class="person-image">
-							<img src="https://i.ibb.co/25zdRMr/person3.jpg" alt="">
+							<img src="assets/img/profile/JK.jpg" alt="">
 							<span class="icon">
-								<i class="fab fa-angular"></i>
+								<a href="https://www.linkedin.com/in/jeevan-kumar-9434011b8"><i class="fab fa-linkedin-in"></i></a>
 							</span>
 						</div>
 						<div class="person-info">
-							<h3 class="full-name">Jeevan G</h3>
+							<h3 class="full-name">Jeevan Kumar G</h3>
 							<span class="speciality">Secretary</span>
 						</div>
 					</div>
@@ -615,13 +597,13 @@
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">
 						<div class="person-image">
-							<img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="">
+							<img src="assets/img/profile/SV.jpg" alt="">
 							<span class="icon">
-								<i class="fab fa-js"></i>
+								<a href="https://www.linkedin.com/in/shiva-vangdale-85701a1b4"><i class="fab fa-linkedin-in"></i></a>
 							</span>
 						</div>
 						<div class="person-info">
-							<h3 class="full-name">Shiva V</h3>
+							<h3 class="full-name">Shiva Vangdale</h3>
 							<span class="speciality">Joint Secretary</span>
 						</div>
 					</div>
@@ -631,14 +613,14 @@
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">
 						<div class="person-image">
-							<img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="">
+							<img src="assets/img/profile/PSCR.png" alt="">
 							<span class="icon">
-								<i class="fab fa-js"></i>
+								<a href="https://www.linkedin.com/in/sri-chakra-raj-pyaraka"><i class="fab fa-linkedin-in"></i></a>
 							</span>
 						</div>
 						<div class="person-info">
-							<h3 class="full-name">Sri Chakra Raj</h3>
-							<span class="speciality">Tech Lead</span>
+							<h3 class="full-name">Sri Chakra Raj P</h3>
+							<span class="speciality">Technical Lead</span>
 						</div>
 					</div>
 				</div>
@@ -647,14 +629,30 @@
 				<div class="col-sm-6 col-lg-4 col-xl-3">
 					<div class="single-person">
 						<div class="person-image">
-							<img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="">
+							<img src="assets/img/profile/SC.png" alt="">
 							<span class="icon">
-								<i class="fab fa-js"></i>
+								<a href="https://www.linkedin.com/in/sumanth-chippagiri-2b3846190"><i class="fab fa-linkedin-in"></i></a>
 							</span>
 						</div>
 						<div class="person-info">
-							<h3 class="full-name">Sumanth</h3>
-							<span class="speciality">Additional Tech Lead</span>
+							<h3 class="full-name">Sumanth C</h3>
+							<span class="speciality">Additional Technical Lead</span>
+						</div>
+					</div>
+				</div>
+				<!-- / End Single Person -->
+        <!-- Start Single Person -->
+				<div class="col-sm-6 col-lg-4 col-xl-3">
+					<div class="single-person">
+						<div class="person-image">
+							<img src="assets/img/profile/SA.jpeg" alt="">
+							<span class="icon">
+								<a href="https://www.linkedin.com/in/srijinesh-alanka-186511240"><i class="fab fa-linkedin-in"></i></a>
+							</span>
+						</div>
+						<div class="person-info">
+							<h3 class="full-name">Srijinesh Alanka</h3>
+							<span class="speciality">Chief Editor</span>
 						</div>
 					</div>
 				</div>
@@ -663,7 +661,7 @@
 		</div>
 	</section>
 <!-- End Team Section -->
-    <!-- ======= Recent Blog Posts Section ======= -->
+    <!-- ======= Recent Blog Posts Section ======= --
     <section id="recent-blog-posts" class="recent-blog-posts">
 
       <div class="container" data-aos="fade-up">
@@ -726,13 +724,12 @@
 
         <div class="section-header">
           <h2>Contact Us</h2>
-          <p>Ea vitae aspernatur deserunt voluptatem impedit deserunt magnam occaecati dssumenda quas ut ad dolores adipisci aliquam.</p>
         </div>
 
       </div>
 
       <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.412650996994!2d78.31495748875416!3d17.391973450056085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb94eba8ad7c87%3A0xb78f51ed556f7cc5!2sChaitanya%20Bharathi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1665150422026!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div><!-- End Google Maps -->
 
       <div class="container">
@@ -743,13 +740,13 @@
 
             <div class="info">
               <h3>Get in touch</h3>
-              <p>Et id eius voluptates atque nihil voluptatem enim in tempore minima sit ad mollitia commodi minus.</p>
+              <p></p>
 
               <div class="info-item d-flex">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Chaitanya Bharathi Institute of Technology, Gandipet, Hyderabad - 500072</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -757,7 +754,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>ras.cbit@ieee.org</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -765,7 +762,7 @@
                 <i class="bi bi-phone flex-shrink-0"></i>
                 <div>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55</p>
+                  <p>+91 96183 81515, +91 73308 57262</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -804,89 +801,6 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-
-    <div class="footer-content">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>HeroBiz</h3>
-              <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-legal text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div class="copyright">
-            &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-
-        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
-
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
 
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
